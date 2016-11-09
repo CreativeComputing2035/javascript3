@@ -27,3 +27,10 @@ document.getElementById("navMenu").innerHTML =
     '<li class="nav"><a href="services.html">Services</a></li>'+
     '<li class="nav"><a href="about.html">About</a></li>'+
     '</ul>';
+
+var myElement = document.getElementById("myElement");
+var myListItems = document.getElementByTagName("li");
+console.log("child nodes of Aside: ", myItems.childNodes.length);
+var myAsideItems = document.getElementById("aside");
+var myAsideList = myAsideItems.getElementsByTagName("li");
+console.log(myAsideList);
